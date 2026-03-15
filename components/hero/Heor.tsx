@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "../ui/button"
+import Image from "next/image"
 
 function Hero() {
   return (
@@ -21,6 +22,14 @@ function Hero() {
           <Link href={"/"}>How it Works</Link>
         </Button>
       </div>
+
+      <Image
+        className="mt-16 rounded-xl"
+        src={"/hero-dashboard.jpg"}
+        width={900}
+        height={400}
+        alt="hero-dashboard"
+      ></Image>
     </div>
   )
 }
