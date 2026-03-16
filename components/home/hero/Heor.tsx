@@ -5,7 +5,7 @@ import Image from "next/image"
 function Hero() {
   return (
     <div className="mt-16 flex w-full flex-col items-center px-6 text-center">
-      <h1 className="mb-4 max-w-lg text-3xl">
+      <h1 className="mb-4 max-w-xl text-5xl">
         Move, Manage & access your your money globally
       </h1>
       <p className="max-w-3xl">
