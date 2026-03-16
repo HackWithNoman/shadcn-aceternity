@@ -1,5 +1,4 @@
 "use client"
-import { useRef } from "react"
 
 const logos = [
   { name: "Vercel", bg: "#000", text: "#fff", letter: "V" },
@@ -18,7 +17,7 @@ export function LogoMarquee() {
   return (
     <div className="w-full overflow-hidden py-8">
       <p className="mb-6 text-center text-xs tracking-widest text-muted-foreground uppercase">
-        Trusted by teams at
+        Trusted by <strong>teams at</strong>
       </p>
       <div className="flex w-max animate-marquee hover:paused">
         {doubled.map((logo, i) => (

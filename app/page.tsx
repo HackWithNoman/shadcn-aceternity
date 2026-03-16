@@ -1,3 +1,4 @@
+import Features from "@/components/features/Index"
 import Hero from "@/components/hero/Heor"
 import SocialProof from "@/components/socialProof/Index"
 
@@ -6,6 +7,7 @@ function Home() {
     <section>
       <Hero />
       <SocialProof />
+      <Features />
     </section>
   )
 }
