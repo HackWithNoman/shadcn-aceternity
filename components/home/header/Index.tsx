@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Logo from "./Logo"
 import { Nav } from "./Nav"
-import { Button } from "../ui/button"
+import { Button } from "../../ui/button"
 import { MobileNav } from "./MobileNav"
 
 function Header() {
