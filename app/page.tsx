@@ -1,3 +1,4 @@
+import CtaBanner from "@/components/home/ctaBanner/Index"
 import FAQ from "@/components/home/faq/Index"
 import Features from "@/components/home/features/Index"
 import Footer from "@/components/home/footer/Index"
@@ -15,6 +16,7 @@ function Home() {
       <HowItWorks />
       <Pricing />
       <FAQ />
+      <CtaBanner />
       <Footer />
     </section>
   )
