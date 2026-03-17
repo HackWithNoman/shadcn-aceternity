@@ -1,3 +1,4 @@
+import FAQ from "@/components/home/faq/Index"
 import Features from "@/components/home/features/Index"
 import Footer from "@/components/home/footer/Index"
 import Hero from "@/components/home/hero/Heor"
@@ -13,6 +14,7 @@ function Home() {
       <Features />
       <HowItWorks />
       <Pricing />
+      <FAQ />
       <Footer />
     </section>
   )
