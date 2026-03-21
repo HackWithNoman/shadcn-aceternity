@@ -1,33 +1,39 @@
-import { Landmark, PhoneCall, Users } from "lucide-react"
+import {
+  BrainCog,
+  FileScan,
+  Landmark,
+  PhoneCall,
+  TimerReset,
+} from "lucide-react"
 
 const data = [
   {
     id: 1,
-    icon: <Users />,
-    heading: "Consectetur adipisicing elit",
+    icon: <BrainCog />,
+    heading: "Built for AI Products",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptates consectetur optio repellendus tempora eligendi reiciendis dolor nulla recusandae iure?",
+      "Everything you need to launch your AI-powered SaaS. From prompt interfaces to usage dashboards, every component is designed with AI workflows in mind.",
   },
   {
     id: 2,
-    icon: <Landmark />,
-    heading: "Consectetur adipisicing elit",
+    icon: <FileScan />,
+    heading: "Developer First",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptates consectetur optio repellendus tempora eligendi reiciendis dolor nulla recusandae iure?",
+      "Clean TypeScript code, zero lock-in, fully customizable. Drop components into your project and own every line of code.",
   },
   {
     id: 3,
-    icon: <PhoneCall />,
-    heading: "Consectetur adipisicing elit",
+    icon: <TimerReset />,
+    heading: "Ship in Days, Not Weeks",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptates consectetur optio repellendus tempora eligendi reiciendis dolor nulla recusandae iure?",
+      "Stop rebuilding the same UI from scratch. Our pre-built sections let you go from idea to production in record time.",
   },
 ]
 
 function Features() {
   return (
     <section className="mt-14 flex items-center justify-center">
-      <div className="border-red-500-400 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="border-red-500-400 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
         {data.map((item) => (
           <div key={item.id}>
             <div className="inline-block rounded-full bg-gray-800 p-3 text-white">

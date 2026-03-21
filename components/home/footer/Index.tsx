@@ -49,7 +49,7 @@ function Footer() {
           Powerd by
           <Link href={"/"} className="font-bold">
             {" "}
-            webflow
+            Next.js
           </Link>
         </p>
       </div>

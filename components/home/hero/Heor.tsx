@@ -5,27 +5,26 @@ import Image from "next/image"
 function Hero() {
   return (
     <div className="mt-16 flex w-full flex-col items-center px-6 text-center">
-      <h1 className="mb-4 max-w-xl text-5xl">
-        Move, Manage & access your your money globally
+      <h1 className="mt-12 mb-4 max-w-xl text-5xl">
+        Ship AI Products Faster Than Ever Before
       </h1>
       <p className="max-w-3xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
-        voluptates consectetur optio repellendus tempora eligendi reiciendis
-        dolor nulla recusandae iure?
+        The complete UI kit for modern SaaS teams. Pre-built sections, clean
+        code, and a design system that scales with your product.
       </p>
 
-      <div className="mt-8 flex gap-4">
+      <div className="mt-8 mb-4 flex gap-4">
         <Button asChild variant="ghost">
-          <Link href={"/"}>Get Started Now</Link>
+          <Link href={"/"}>See Components</Link>
         </Button>
         <Button asChild>
-          <Link href={"/"}>How it Works</Link>
+          <Link href={"/"}>Get the Kit</Link>
         </Button>
       </div>
 
       <Image
-        className="mt-16 rounded-xl"
-        src={"/hero-dashboard.jpg"}
+        className="mt-16 mb-6 rounded-xl"
+        src={"/hero-bg.jpg"}
         width={900}
         height={400}
         alt="hero-dashboard"
