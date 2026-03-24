@@ -4,8 +4,8 @@ import Image from "next/image"
 
 function Hero() {
   return (
-    <div className="mt-16 flex w-full flex-col items-center px-6 text-center">
-      <h1 className="mt-12 mb-4 max-w-xl text-5xl">
+    <div className="flex w-full flex-col items-center px-6 py-20 text-center">
+      <h1 className="mb-4 max-w-xl text-5xl font-bold leading-16">
         Ship AI Products Faster Than Ever Before
       </h1>
       <p className="max-w-3xl">
@@ -23,7 +23,7 @@ function Hero() {
       </div>
 
       <Image
-        className="mt-16 mb-6 rounded-xl"
+        className="rounded-xl"
         src={"/hero-bg.jpg"}
         width={900}
         height={400}

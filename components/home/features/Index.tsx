@@ -32,8 +32,8 @@ const data = [
 
 function Features() {
   return (
-    <section className="mt-14 flex items-center justify-center">
-      <div className="border-red-500-400 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
+    <section className="flex items-center justify-center">
+      <div className="border-red-500-400 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {data.map((item) => (
           <div key={item.id}>
             <div className="inline-block rounded-full bg-gray-800 p-3 text-white">

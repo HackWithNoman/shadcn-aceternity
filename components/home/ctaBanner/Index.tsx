@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function CtaBanner() {
   return (
-    <section className="mt-24 flex flex-col items-center text-center">
+    <section className="flex flex-col items-center text-center">
       <h1 className="mb-3 text-4xl">Ready to Build Your Inteligent Future?</h1>
       <p>Subscribe to our news letter.</p>
       <div className="mt-6 flex gap-6">

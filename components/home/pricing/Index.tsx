@@ -5,7 +5,7 @@ import Link from "next/link"
 
 function Pricing() {
   return (
-    <section className="mt-24">
+    <section>
       <h2 className="mb-4 text-center text-6xl">
         Simple plans. No Hidden Fees
       </h2>
@@ -13,7 +13,7 @@ function Pricing() {
         One purchase, lifetime access. No subscriptions, no upsells, just clean
         code ready to ship.
       </p>
-      <div className="mt-6 flex flex-col gap-6 rounded-2xl bg-[#ECEFEB] p-3 md:flex-row">
+      <div className="flex flex-col gap-6 rounded-2xl bg-[#ECEFEB] p-3 md:flex-row">
         <div className="flex flex-col gap-6 p-6">
           <div className="flex justify-between">
             <h2 className="text-xl font-bold">Starter</h2>

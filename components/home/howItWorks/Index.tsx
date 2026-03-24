@@ -2,14 +2,14 @@ import { PencilOff, Rocket, ShoppingBag } from "lucide-react"
 
 function HowItWorks() {
   return (
-    <section className="mt-24 flex flex-col items-center text-center mb-28">
+    <section className="flex flex-col items-center text-center">
       <h2 className="mb-4 text-4xl">Get stareted in 3 esay steps</h2>
       <p className="max-w-3xl">
         Launching your next SaaS has never been simpler. Follow these three
         steps and go from zero to a fully functional product in no time.
       </p>
 
-      <div className="gridgrid-cols-1 mt-18 grid gap-6 text-left md:grid-cols-2 lg:grid-cols-3">
+      <div className="gridgrid-cols-1 grid gap-6 text-left md:grid-cols-2 lg:grid-cols-3">
         <div className="rounded-xl border-2 border-gray-700 p-5">
           <div className="mb-4">
             <ShoppingBag size={38} />

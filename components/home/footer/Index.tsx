@@ -2,7 +2,7 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <footer className="mt-24">
+    <footer className="">
       <div className="flex flex-col justify-between gap-6 py-36 md:flex-row">
         <div>
           <p className="text-lg text-gray-500">(+880)1458764</p>
